@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <form action="respuesta.html" method="get">
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+        <br>
+        <label for="apellido">Escribe tu apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
+        <br>
+        <p>¿Qué valoración le das a la publicación?</p>
+        <input type="radio" name="valoracion" id="valoracion" value="0">0
+        <input type="radio" name="valoracion" id="valoracion" value="1">1
+        <input type="radio" name="valoracion" id="valoracion" value="2">2
+        <input type="radio" name="valoracion" id="valoracion" value="3">3
+        <input type="radio" name="valoracion" id="valoracion" value="4">4
+        <input type="radio" name="valoracion" id="valoracion" value="5">5
+        <br>
+        <p>¿Qué asignaturas has estudiado ?</p>
+        <input type="checkbox" name="html" id="html">html
+        <input type="checkbox" name="css" id="css">css
+        <input type="checkbox" name="javascript" id="javascript">javascript
+        <br>
+        <p>Selecciona tu alineación ideal</p>
+        <select name="alineacion" id="alineacion" size="5" multiple>
+            <option value="Cristiano">Cristiano</option>
+            <option value="Messi">Messi</option>
+            <option value="Chigrinsky">Chigrinsky</option>
+            <option value="Sergio Ramos">Sergio Ramos</option>
+            <option value="Shevchenko">Shevchenko</option>
+        </select>
+        <br>
+        <p>¿Qué mejorarías de este curso?</p>
+        <textarea name="comentarios" id="comentario" cols="60" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
